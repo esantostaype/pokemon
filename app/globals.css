@@ -1022,7 +1022,7 @@ body{
     .pokemon-app__content{
         border: none;
         margin: 0;
-        padding: 72px 40px 40px;
+        padding: 142px 40px 40px;
     }
 
     .pokemon-app__list {
@@ -1045,7 +1045,7 @@ body{
 @media screen and (max-width: 1024px) {
 
     .pokemon-app__content{
-        padding: 72px 30px 30px;
+        padding: 132px 30px 30px;
     }
 
     .pokemon-app__detail__header{
@@ -1127,7 +1127,7 @@ body{
     }
 
     .pokemon-app__content{
-        padding: 64px 25px 25px;
+        padding: 94px 25px 25px;
     }
 
     .pokemon-app__detail__info{
