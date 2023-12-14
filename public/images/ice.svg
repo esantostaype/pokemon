@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#Degradado_sin_nombre_5);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_5" data-name="Degradado sin nombre 5" x1="0" y1="64" x2="128" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#70ccbd"/>
+      <stop offset="1" stop-color="#8cddd4"/>
+    </linearGradient>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <circle class="cls-2" cx="64" cy="64" r="64"/>
+      <g id="Group_2" data-name="Group 2">
+        <path id="Polygon" class="cls-1" d="m82.17,33.29l.23,19.5-17.01,8.19-.23-18.42,17.01-9.27Z"/>
+        <path id="Polygon-2" data-name="Polygon" class="cls-1" d="m99.24,64.03l-16.84,9.66-16.9-9.66,16.9-8.87,16.84,8.87Z"/>
+        <path id="Polygon_Copy" data-name="Polygon Copy" class="cls-1" d="m62.5,64.03l-16.84,9.66-16.9-9.66,16.9-8.87,16.84,8.87Z"/>
+        <path id="Polygon-3" data-name="Polygon" class="cls-1" d="m45.49,33.23l17.46,8.65-.45,18.88-16.5-8.19-.51-19.33Z"/>
+        <path id="Polygon-4" data-name="Polygon" class="cls-1" d="m82.62,94.6l-17.46-8.65.45-18.93,16.5,8.19.51,19.38Z"/>
+        <path id="Polygon-5" data-name="Polygon" class="cls-1" d="m46.06,94.77l-.23-19.5,17.07-8.19.17,18.42-17.01,9.27Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
