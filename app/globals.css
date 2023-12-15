@@ -65,7 +65,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../public/assets/fonts/Roboto-Black.woff2') format('woff2');
+    src: url('/assets/fonts/Roboto-Black.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -73,7 +73,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../public/assets/fonts/Roboto-BlackItalic.woff2') format('woff2');
+    src: url('/assets/fonts/Roboto-BlackItalic.woff2') format('woff2');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
@@ -81,7 +81,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../public/assets/fonts/Roboto-Bold.woff2') format('woff2');
+    src: url('/assets/fonts/Roboto-Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -89,7 +89,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../public/assets/fonts/Roboto-BoldItalic.woff2') format('woff2');
+    src: url('/assets/fonts/Roboto-BoldItalic.woff2') format('woff2');
     font-weight: 700;
     font-style: italic;
     font-display: swap;
@@ -97,7 +97,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../public/assets/fonts/Roboto-Italic.woff2') format('woff2');
+    src: url('/assets/fonts/Roboto-Italic.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -105,7 +105,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../public/assets/fonts/Roboto-Light.woff2') format('woff2');
+    src: url('/assets/fonts/Roboto-Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -113,7 +113,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../public/assets/fonts/Roboto-LightItalic.woff2') format('woff2');
+    src: url('/assets/fonts/Roboto-LightItalic.woff2') format('woff2');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -121,7 +121,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../public/assets/fonts/Roboto-Medium.woff2') format('woff2');
+    src: url('/assets/fonts/Roboto-Medium.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -129,7 +129,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../public/assets/fonts/Roboto-MediumItalic.woff2') format('woff2');
+    src: url('/assets/fonts/Roboto-MediumItalic.woff2') format('woff2');
     font-weight: 600;
     font-style: italic;
     font-display: swap;
@@ -137,7 +137,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../public/assets/fonts/Roboto-Regular.woff2') format('woff2');
+    src: url('/assets/fonts/Roboto-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -145,7 +145,7 @@
 
 @font-face {
     font-family: 'Fengardo';
-    src: url('../public/assets/fonts/FengardoNeue-Black.woff2') format('woff2');
+    src: url('/assets/fonts/FengardoNeue-Black.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -1151,4 +1151,15 @@ body{
 	animation-duration: 0.5s;
 	animation-fill-mode: both;
 	animation-name: fadeIn;
+}
+
+@keyframes reveal {
+    from { opacity: 0;  translate: 0 100px; }
+    50% { opacity: .1; }
+    to { opacity: 1; translate: 0 0; }
+}
+
+.reveal {
+	animation-duration: 0.5s;
+	animation-name: reveal;
 }

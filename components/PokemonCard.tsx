@@ -29,6 +29,7 @@ export function PokemonCard({ pokemon } : Props ) {
 											alt={ typeObject.type.name }
 											width={ 24 }
 											height={ 24 }
+											className="fadeIn"
 										/>
 										{ typeObject.type.name }
 									</li>
