@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { Spinner } from '../components';
+import { Spinner } from './ui/Spinner';
 
 interface Props {
     id: string;
@@ -19,7 +19,7 @@ export function PokemonImage({ id, name, width, height }: Props) {
     };
 
     return (
-        <>
+        <div style={{ position: 'relative', width, height }}>
             {!imageLoaded && (
                 <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <Spinner/>
@@ -33,6 +33,6 @@ export function PokemonImage({ id, name, width, height }: Props) {
                 height={height}
                 onLoad={handleImageLoad}
             />
-        </>
+        </div>
     );
 }
