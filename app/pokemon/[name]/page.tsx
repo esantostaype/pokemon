@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Image from "next/image"
 import { FullPokemon, PokemonListResponse } from "@/interfaces";
 import { Ability, Move } from '../../../interfaces/full-pokemon';
-import { Height, PokemonImage, Weight } from "@/components";
+import { Height, PokemonAbilities, PokemonImage, Weight } from "@/components";
 import { Progress } from "@/components";
 import { notFound } from "next/navigation";
 import { FavoriteButton } from '../../../components/FavoriteButton';
@@ -134,18 +134,7 @@ export default async function PokemonPage( { params }: Props ) {
 
                     <h4 className="pokemon-app__detail__subtitle" >Abilities</h4>
                     <div className="pokemon-app__detail__abilities" >
-                        <ul className="pokemon-app__detail__abilities__list">
-                            { pokemon.abilities.map( ( abilityObject: any ) => {
-                                return (
-                                    <li key={ abilityObject.id } className="pokemon-app__detail__abilities__item">
-                                        <h3 className="pokemon-app__detail__abilities__item__title">{ abilityObject.name }</h3>
-                                        { abilityObject.effect_entries && abilityObject.effect_entries[0]
-                                            && ( <p>{abilityObject.effect_entries[0].effect}</p> )
-                                        }
-                                    </li>
-                                )
-                            })}
-                        </ul>
+                        <PokemonAbilities abilities={ pokemon.abilities } />
                     </div>
                 </div>
                 <figure  className="pokemon-app__detail__image">

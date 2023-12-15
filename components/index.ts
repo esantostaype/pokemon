@@ -3,6 +3,7 @@ export { Header } from './Header';
 export { PokemonGrid } from './PokemonGrid';
 export { PokemonCard } from './PokemonCard';
 export { PokemonImage } from './PokemonImage';
+export { PokemonAbilities } from './PokemonAbilities';
 export { FavoritePokemons } from './FavoritePokemons';
 export { FavoriteButton } from './FavoriteButton';
 export { Progress } from './ui/Progress';

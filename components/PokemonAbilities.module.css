@@ -1,0 +1,58 @@
+.itemContent {
+    transition: height 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.itemContent > div {
+    padding: 0 24px 16px;
+}
+
+.item{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    text-transform: none;
+}
+
+.item:first-child{
+    border-top: none;
+}
+
+.itemBtn{
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 6px;
+    padding: 16px 24px;
+    position: relative;
+    text-align: left;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.itemBtn::before{
+    background-color: #fff;
+    content: '';
+    position: absolute;
+    height: 10px;
+    right: 24px;
+    top: 16px;
+    transform: rotate(45deg);
+    width: 2px;
+}
+
+.itemBtn::after{
+    background-color: #fff;
+    content: '';
+    position: absolute;
+    height: 10px;
+    right: 30px;
+    top: 16px;
+    transform: rotate(-45deg);
+    width: 2px;
+}
+
+.itemBtnExpanded.itemBtn::before{
+    right: 30px;
+}
+
+.itemBtnExpanded.itemBtn::after{
+    right: 24px;
+}

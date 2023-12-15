@@ -777,7 +777,7 @@ body{
     border-radius: 5px;
     height: 100%;
     position: absolute;
-	animation-duration: 0.5s;
+	animation-duration: 1s;
 	animation-fill-mode: both;
 	animation-name: progress;
     width: 100%;
@@ -787,12 +787,6 @@ body{
 	0% {
 		transform: translateX(-100%);
 	}
-}
-
-.fadeIn {
-	animation-duration: 0.5s;
-	animation-fill-mode: both;
-	animation-name: fadeIn;
 }
 
 .bug .pokemon-app__detail__stat__progress-bar__value{
@@ -875,21 +869,6 @@ body{
 
 .pokemon-app__detail__abilities{
     border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.pokemon-app__detail__abilities__item{
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 16px 24px;
-}
-
-.pokemon-app__detail__abilities__item:first-child{
-    border-top: none;
-}
-
-.pokemon-app__detail__abilities__item__title{
-    font-size: 1.25em;
-    font-weight: bold;
-    margin-bottom: 6px;
 }
 
 .pokemon-app__detail__more-info__content{
@@ -1166,15 +1145,4 @@ body{
 	animation-duration: 0.5s;
 	animation-fill-mode: both;
 	animation-name: fadeIn;
-}
-
-@keyframes reveal {
-    from { opacity: 0;  translate: 0 100px; }
-    50% { opacity: .1; }
-    to { opacity: 1; translate: 0 0; }
-}
-
-.reveal {
-	animation-duration: 0.5s;
-	animation-name: reveal;
 }
