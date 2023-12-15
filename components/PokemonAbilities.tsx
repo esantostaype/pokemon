@@ -28,7 +28,9 @@ export function PokemonAbilities({ abilities } : Props ) {
             { abilities.map( ( abilityObject: any, index: number ) => {
                 return (
                     <AccordionItem  key={ abilityObject.id } header={ abilityObject.name } initialEntered={ index === 0 }>
-                        { abilityObject.effect_entries[0].effect }
+                        { abilityObject.effect_entries && abilityObject.effect_entries[0]
+                            && ( abilityObject.effect_entries[0].effect )
+                        }
                     </AccordionItem>
                 )
             })}
