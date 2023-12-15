@@ -773,82 +773,97 @@ body{
     position: relative;
 }
 
-.pokemon-app__detail__stat__progress-bar div{
+.pokemon-app__detail__stat__progress-bar__value{
     border-radius: 5px;
     height: 100%;
     position: absolute;
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+	animation-name: progress;
     width: 100%;
 }
 
-.bug .pokemon-app__detail__stat__progress-bar div{
+@keyframes progress {
+	0% {
+		transform: translateX(-100%);
+	}
+}
+
+.fadeIn {
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+	animation-name: fadeIn;
+}
+
+.bug .pokemon-app__detail__stat__progress-bar__value{
     background: var(--bug-gradient);
 }
 
-.dark .pokemon-app__detail__stat__progress-bar div{
+.dark .pokemon-app__detail__stat__progress-bar__value{
     background: var(--dark-gradient);
 }
 
-.dragon .pokemon-app__detail__stat__progress-bar div{
+.dragon .pokemon-app__detail__stat__progress-bar__value{
     background: var(--dragon-gradient);
 }
 
-.electric .pokemon-app__detail__stat__progress-bar div{
+.electric .pokemon-app__detail__stat__progress-bar__value{
     background: var(--electric-gradient);
 }
 
-.fairy .pokemon-app__detail__stat__progress-bar div{
+.fairy .pokemon-app__detail__stat__progress-bar__value{
     background: var(--fairy-gradient);
 }
 
-.fighting .pokemon-app__detail__stat__progress-bar div{
+.fighting .pokemon-app__detail__stat__progress-bar__value{
     background: var(--fighting-gradient);
 }
 
-.fire .pokemon-app__detail__stat__progress-bar div{
+.fire .pokemon-app__detail__stat__progress-bar__value{
     background: var(--fire-gradient);
 }
 
-.flying .pokemon-app__detail__stat__progress-bar div{
+.flying .pokemon-app__detail__stat__progress-bar__value{
     background: var(--flying-gradient);
 }
 
-.ghost .pokemon-app__detail__stat__progress-bar div{
+.ghost .pokemon-app__detail__stat__progress-bar__value{
     background: var(--ghost-gradient);
 }
 
-.grass .pokemon-app__detail__stat__progress-bar div{
+.grass .pokemon-app__detail__stat__progress-bar__value{
     background: var(--grass-gradient);
 }
 
-.ground .pokemon-app__detail__stat__progress-bar div{
+.ground .pokemon-app__detail__stat__progress-bar__value{
     background: var(--ground-gradient);
 }
 
-.ice .pokemon-app__detail__stat__progress-bar div{
+.ice .pokemon-app__detail__stat__progress-bar__value{
     background: var(--ice-gradient);
 }
 
-.normal .pokemon-app__detail__stat__progress-bar div{
+.normal .pokemon-app__detail__stat__progress-bar__value{
     background: var(--normal-gradient);
 }
 
-.poison .pokemon-app__detail__stat__progress-bar div{
+.poison .pokemon-app__detail__stat__progress-bar__value{
     background: var(--poison-gradient);
 }
 
-.psychic .pokemon-app__detail__stat__progress-bar div{
+.psychic .pokemon-app__detail__stat__progress-bar__value{
     background: var(--psychic-gradient);
 }
 
-.rock .pokemon-app__detail__stat__progress-bar div{
+.rock .pokemon-app__detail__stat__progress-bar__value{
     background: var(--rock-gradient);
 }
 
-.steel .pokemon-app__detail__stat__progress-bar div{
+.steel .pokemon-app__detail__stat__progress-bar__value{
     background: var(--steel-gradient);
 }
 
-.water .pokemon-app__detail__stat__progress-bar div{
+.water .pokemon-app__detail__stat__progress-bar__value{
     background: var(--water-gradient);
 }
 
