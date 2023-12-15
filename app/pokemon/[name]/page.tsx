@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import Image from "next/image"
 import { FullPokemon, PokemonListResponse } from "@/interfaces";
 import { Ability, Move } from '../../../interfaces/full-pokemon';
-import { HeartIcon, Height, PokemonImage, Weight } from "@/components";
-import { Progress } from "@/components/ui/Progress";
+import { Height, PokemonImage, Weight } from "@/components";
+import { Progress } from "@/components";
 import { notFound } from "next/navigation";
 import { FavoriteButton } from '../../../components/FavoriteButton';
 

@@ -5,4 +5,6 @@ export { PokemonCard } from './PokemonCard';
 export { PokemonImage } from './PokemonImage';
 export { FavoritePokemons } from './FavoritePokemons';
 export { FavoriteButton } from './FavoriteButton';
+export { Progress } from './ui/Progress';
+export { Spinner } from './ui/Spinner';
 export { Counter } from './Counter';
