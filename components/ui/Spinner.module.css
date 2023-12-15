@@ -5,12 +5,12 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -25px 0 0 -25px;
-    width: 50px;
-    height: 50px;
+    margin: -16px 0 0 -16px;
+    width: 32px;
+    height: 32px;
 }
 .spinner .path {
-    stroke: var(--primary-theme-opacity);
+    stroke: var(--primary-theme);
     stroke-linecap: round;
     -webkit-animation: dash 1.5s ease-in-out infinite;
             animation: dash 1.5s ease-in-out infinite;

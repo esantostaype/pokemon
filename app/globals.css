@@ -5,7 +5,7 @@
 
 :root {
     --background-theme: rgb(44,49,81);
-    --primary-theme: rgb(0,255,155);
+    --primary-theme: rgb(0, 255, 155);
     --primary-theme-opacity: rgba(0,255,155,0.2);
     --bug: rgb(146,188,44);
     --dark: rgb(89,87,97);
